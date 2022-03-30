@@ -13,6 +13,7 @@
       text-decoration: none;
       color: #1e3a8a;
     }
+  
 
     /* nav & footer styles */
     nav{
@@ -70,13 +71,16 @@
       width: 100%;
       margin: 10px 0;
       padding: 8px;
+      border-radius: 15px;      
     }
     .create-blog label{
       display: block;
       margin-top: 24px;
+      border-radius: 15px;
     }
     textarea{
       height: 120px;
+      border-radius: 15px;
     }
     .create-blog button{
       margin-top: 20px;
@@ -86,4 +90,8 @@
       border: 0;
       font-size: 1.2em;
       cursor: pointer;
+      border-radius: 15px;
+    }
+    footer{
+      background-color: aliceblue;
     }

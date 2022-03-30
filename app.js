@@ -24,9 +24,9 @@ app.use(express.static('Public'));
 app.get('/' , (req, res) => {
 
     const blogs = [
-        {title: 'Yoshi finds eggs', snippet: 'Lorem ipsum dolor sit amet consectetur'},
-        {title: 'Mario finds stars', snippet: 'Lorem ipsum dolor sit amet consectetur'},
-        {title: 'How to defeat bowser', snippet: 'Lorem ipsum dolor sit amet consectetur'},
+        {title: 'Biography', snippet: ' This is my Biography ...Lorem ipsum dolor sit amet consectetur'},
+        {title: 'My Experience', snippet: 'This is my Experience... Lorem ipsum dolor sit amet consectetur'},
+        {title: 'How am I', snippet: '  Lorem ipsum dolor sit amet consectetur'},
     ];
 
     // displaye html tag
@@ -48,8 +48,8 @@ app.get('/about' , (req, res) => {
 });
 
 
-app.get('/blogs/create', (req, res) => {
-    res.render('create', { title: 'Add a new blog' });
+app.get('/create', (req, res) => {
+    res.render('create', { title:'Add a new blog' });
   });
 
 //404 page
